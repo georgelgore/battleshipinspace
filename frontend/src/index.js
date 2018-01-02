@@ -5,11 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
   MAINDIV.addEventListener('click', e => {
     e.preventDefault()
     console.log(e.target)
-    const clicked = 
+    const clicked = e.target.dataset.value
 
-    case expression:
+    switch (clicked) {
+      case "username-button":
+        
+        break;
+      default:
 
-      break;
+    }
   })
 
 })

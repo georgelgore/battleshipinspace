@@ -1,6 +1,6 @@
 class Adapter{
   static getUserDataAPI(username){
-    return fetch('http://localhost:3000/api/v1/users').then(resp => resp.json()).then(json => json.find(user => user.email === email.toLowerCase()))
+    return fetch('http://localhost:3000/api/v1/users').then(resp => resp.json()).then(json => json.find(user => user.username === usernams.toLowerCase()))
   }
 
   static createUserAPI(username){
